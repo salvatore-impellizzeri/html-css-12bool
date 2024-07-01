@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
 }
 
 [class*="my-col-"] {
@@ -36,4 +35,8 @@
 
 .padding{
     padding: 20px;
+}
+
+.no-text{
+    height: 50px;
 }
