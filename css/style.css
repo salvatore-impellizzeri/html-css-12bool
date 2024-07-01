@@ -28,7 +28,6 @@
     border: 1px solid dodgerblue;
 }
 
-
 .text{
     text-align: center;
 }
@@ -38,14 +37,44 @@
 }
 
 .no-text{
-    height: 50px;
+    height: 52px;
 }
 
-.y-center{
-    display: flex;
-    align-items: center;
+.bigger{
+    height: 104px;
 }
 
-.no-text-inside{
+.top{
     height: 50px;
+    align-self: flex-start;
+}
+
+.middle{
+    height: 50px;
+    align-self: center;
+}
+
+.bottom{
+    height: 50px;
+    align-self: flex-end;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
 }
