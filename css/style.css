@@ -40,3 +40,12 @@
 .no-text{
     height: 50px;
 }
+
+.y-center{
+    display: flex;
+    align-items: center;
+}
+
+.no-text-inside{
+    height: 50px;
+}
